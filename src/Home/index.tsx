@@ -1,6 +1,11 @@
 import React from 'react'
-import { Text } from 'react-native'
 
-const Home = () => <Text>Ihuuuuuu</Text>
+import { ContainerGradient, Title } from './styles'
+
+const Home = () => (
+  <ContainerGradient>
+    <Title>PetZera</Title>
+  </ContainerGradient>
+)
 
 export default Home

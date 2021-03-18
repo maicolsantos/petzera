@@ -50,6 +50,7 @@ module.exports = {
     'max-len': [ 'error', { code: 80, ignorePattern: '^import\\W.*' }],
     'no-multiple-empty-lines': [ 'error', { max: 1, maxBOF: 0, maxEOF: 0 }],
     'eol-last': [ 'error', 'always' ],
+    'import/named': 0,
     'import/no-named-as-default': 0,
     'import/no-named-as-default-member': 0,
     'import/no-extraneous-dependencies': 0,
